@@ -16,18 +16,18 @@ class OnboardFirst extends StatelessWidget {
       body: Stack(
         children: [
           Positioned(
-            top: 100,
-            left: 118,
+            top: 100.h,
+            left: 118.w,
             child: Image.asset(AppImages.image3),
           ),
           Positioned(
-            top: 230,
-            left: 220,
+            top: 230.h,
+            left: 220.w,
             child: Image.asset(AppImages.image4),
           ),
           Positioned(
-            top: 480,
-            left: 50,
+            top: 480.h,
+            left: 50.w,
             child: Image.asset(AppImages.image5),
           ),
           Center(
@@ -54,11 +54,11 @@ class OnboardFirst extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 300,
-            left: 40,
+            top: 300.h,
+            left: 40.w,
             child: SizedBox(
-              width: 560,
-              height: 420,
+              width: 560.w,
+              height: 420.h,
               child: Image.asset(
                 AppImages.image2,
                 fit: BoxFit.cover,
@@ -66,8 +66,8 @@ class OnboardFirst extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 560,
-            bottom: 200,
+            top: 560.h,
+            bottom: 200.h,
             child: SizedBox(
               width: 400.w,
               height: 110.h,
@@ -78,58 +78,59 @@ class OnboardFirst extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 830,
-            left: 50,
+            top: 830.h,
+            left: 50.w,
             child: Image.asset(AppImages.image7),
           ),
           Positioned(
-            top: 720,
-            left: 400,
+            top: 720.h,
+            left: 400.w,
             child: Image.asset(AppImages.image8),
           ),
           Positioned(
-            top: 790,
-            left: 250,
+            top: 790.h,
+            left: 250.w,
             child: Row(
               children: [
                 Container(
-                  width: 42,
-                  height: 5,
+                  width: 42.w,
+                  height: 5.h,
                   decoration: BoxDecoration(
                       color: AppColors.white_Color,
-                      borderRadius: BorderRadius.circular(15)),
+                      borderRadius: BorderRadius.circular(15.r)),
                 ),
-                const SizedBox(
-                  width: 5,
-                ),
-                Container(
-                  width: 30,
-                  height: 5,
-                  decoration: BoxDecoration(
-                      color: const Color(0xffFFB21A),
-                      borderRadius: BorderRadius.circular(15)),
-                ),
-                const SizedBox(
-                  width: 5,
+                SizedBox(
+                  width: 5.w,
                 ),
                 Container(
-                  width: 30,
-                  height: 5,
+                  width: 30.w,
+                  height: 5.h,
                   decoration: BoxDecoration(
                       color: const Color(0xffFFB21A),
-                      borderRadius: BorderRadius.circular(15)),
+                      borderRadius: BorderRadius.circular(15.r)),
+                ),
+                SizedBox(
+                  width: 5.w,
+                ),
+                Container(
+                  width: 30.w,
+                  height: 5.h,
+                  decoration: BoxDecoration(
+                      color: const Color(0xffFFB21A),
+                      borderRadius: BorderRadius.circular(15.r)),
                 ),
               ],
             ),
           ),
           Positioned(
-              top: 930,
-              left: 160,
-              child: const ButtonPush(
-                color: AppColors.white_Color,
-                text: "Get started",
-                navigateTo: OnboardFirst(),
-              )),
+            top: 930.h,
+            left: 160.w,
+            child: ButtonPush(
+              color: AppColors.white_Color,
+              text: "Get started",
+              navigateTo: const OnboardFirst(),
+            ),
+          ),
         ],
       ),
     );
