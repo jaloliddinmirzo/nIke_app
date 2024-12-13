@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:online_course/utils/app_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_course/widgets/content.dart';
 import 'package:online_course/widgets/content_sigin.dart';
 
 class HomePage extends StatefulWidget {
