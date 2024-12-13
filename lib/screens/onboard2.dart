@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike_app/screens/home_screen.dart';
 import 'package:nike_app/screens/onboard_1.dart';
 import 'package:nike_app/utils/app_colors.dart';
 import 'package:nike_app/utils/app_images.dart';
+import 'package:nike_app/widgets/button_push.dart';
 import 'package:nike_app/widgets/texts.dart';
 
 class Onboard2 extends StatelessWidget {
@@ -88,23 +90,15 @@ class Onboard2 extends StatelessWidget {
           SizedBox(
             height: 50.h,
           ),
-          Center(
-            child: Container(
-              width: 315.w,
-              height: 60.h,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13.r),
-                color: AppColors.white_Color,
-              ),
-              child: Center(
-                child: Sub_text(
-                  text: "Save",
-                  size: 14.sp,
-                  color: Colors.black,
-                ),
-              ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16.w),
+            child: ButtonPush(
+              text: "Save",
+              navigateTo: HomePage(),
+              color: AppColors.white_Color,
+              textColor: AppColors.main_text_Color,
             ),
-          )
+          ),
         ],
       ),
     );

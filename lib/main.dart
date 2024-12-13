@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike_app/screens/home_screen.dart';
 import 'package:nike_app/screens/onboard_1.dart';
 
 void main() => runApp(MyApp());
@@ -21,9 +22,9 @@ class MyApp extends StatelessWidget {
           title: 'First Method',
           // You can use the library anywhere in the app even in theme
           theme: ThemeData(
-            // primarySwatch: Colors.blue,
-            textTheme: Typography.englishLike2018.apply(fontSizeFactor: 1.sp),
-          ),
+              // primarySwatch: Colors.blue,
+              // textTheme: Typography.englishLike2018.apply(fontSizeFactor: 1.sp),
+              ),
           home: child,
         );
       },

@@ -1,7 +1,6 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike_app/screens/onboard2.dart';
 import 'package:nike_app/widgets/button_push.dart';
 import '../utils/app_colors.dart';
 import '../utils/app_images.dart';
@@ -12,7 +11,7 @@ class OnboardFirst extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.button_Color,
+      backgroundColor: AppColors.main_Color,
       body: Stack(
         children: [
           Positioned(
@@ -21,14 +20,42 @@ class OnboardFirst extends StatelessWidget {
             child: Image.asset(AppImages.image3),
           ),
           Positioned(
-            top: 230.h,
-            left: 220.w,
+            top: 160.h,
+            left: 110.w,
             child: Image.asset(AppImages.image4),
           ),
           Positioned(
-            top: 480.h,
+            top: 290.h,
             left: 50.w,
             child: Image.asset(AppImages.image5),
+          ),
+          Positioned(
+            top: 180.h,
+            left: 00.w,
+            child: SizedBox(
+              width: 380.w,
+              height: 420.h,
+              child: Image.asset(
+                AppImages.image2,
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 30.h,
+            left: 20.w,
+            right: 20.w,
+            child: ButtonPush(
+              color: AppColors.white_Color,
+              text: "Get Started", // Matn uzatildi
+              textColor: AppColors.main_text_Color,
+              navigateTo: Onboard2(),
+            ),
+          ),
+          Positioned(
+            top: 420.h,
+            left: 0.w,
+            child: Image.asset(AppImages.image6),
           ),
           Center(
             child: Column(
@@ -54,18 +81,6 @@ class OnboardFirst extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 300.h,
-            left: 40.w,
-            child: SizedBox(
-              width: 560.w,
-              height: 420.h,
-              child: Image.asset(
-                AppImages.image2,
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
-          Positioned(
             top: 560.h,
             bottom: 200.h,
             child: SizedBox(
@@ -78,18 +93,13 @@ class OnboardFirst extends StatelessWidget {
             ),
           ),
           Positioned(
-            top: 830.h,
-            left: 50.w,
-            child: Image.asset(AppImages.image7),
-          ),
-          Positioned(
-            top: 720.h,
+            top: 520.h,
             left: 400.w,
             child: Image.asset(AppImages.image8),
           ),
           Positioned(
-            top: 790.h,
-            left: 250.w,
+            top: 570.h,
+            left: 120.w,
             child: Row(
               children: [
                 Container(
@@ -120,15 +130,6 @@ class OnboardFirst extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15.r)),
                 ),
               ],
-            ),
-          ),
-          Positioned(
-            top: 930.h,
-            left: 160.w,
-            child: ButtonPush(
-              color: AppColors.white_Color,
-              text: "Get started",
-              navigateTo: const OnboardFirst(),
             ),
           ),
         ],

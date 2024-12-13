@@ -11,8 +11,8 @@ class ButtonGoogle extends StatelessWidget {
   const ButtonGoogle({
     super.key,
     this.text,
-    this.color = AppColors.main_Color,
-    this.textColor = AppColors.white_Color,
+    this.color =AppColors.grey_back_Color,
+    this.textColor = AppColors.main_text_Color,
   });
 
   @override
@@ -32,7 +32,7 @@ class ButtonGoogle extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(AppImages.image1),
+            Image.asset(AppImages.google),
             SizedBox(
               width: 15.sp,
             ),

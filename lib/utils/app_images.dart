@@ -14,6 +14,7 @@ class AppImages {
   static const nikelogoimg = "$baseImagePath/nikelogo.png";
   static const scrollogoimg = "$baseImagePath/scrolllogo.png";
   static const skechers1img = "$baseImagePath/skechers1.png";
+  static const back_all = "$baseImagePath/back_all.png";
   static const smileimg = "$baseImagePath/smile.png";
   static const cloudeimg = "$baseImagePath/cloude.png";
   static const welcometextimage = "$baseImagePath/welcometextelement.png";
