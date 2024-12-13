@@ -17,7 +17,7 @@ class H1_text extends StatelessWidget {
       textAlign: TextAlign.center,
       text,
       style: TextStyle(
-          color: AppColors.gray_text_Color,
+          color: AppColors.main_text_Color,
           fontSize: size.sp,
           fontWeight: FontWeight.bold),
     );
@@ -53,7 +53,8 @@ class Sub_text extends StatelessWidget {
   const Sub_text({
     super.key,
     required this.text,
-    required this.size,  this.color = AppColors.gray_text_Color,
+    required this.size,
+    this.color = AppColors.gray_text_Color,
   });
 
   @override
@@ -62,9 +63,7 @@ class Sub_text extends StatelessWidget {
       textAlign: TextAlign.center,
       text,
       style: TextStyle(
-          color: color,
-          fontSize: size.sp,
-          fontWeight: FontWeight.w400),
+          color: color, fontSize: size.sp, fontWeight: FontWeight.w400),
     );
   }
 }

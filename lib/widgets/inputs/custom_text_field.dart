@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:online_course/utils/app_colors.dart';
@@ -16,7 +15,7 @@ class CustomTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       decoration: InputDecoration(
-        contentPadding: EdgeInsets.symmetric(horizontal: 14.w, vertical: 16.h),
+        contentPadding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 15.h),
         hintText: hintText,
         hintStyle:
             TextStyle(color: AppColors.input_text_Color, fontSize: 14.sp),

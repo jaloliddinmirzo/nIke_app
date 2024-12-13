@@ -7,11 +7,13 @@ class ButtonPush extends StatelessWidget {
   final text;
   final Color color;
   final Color textColor;
+  final Widget navigateTo;
   const ButtonPush({
     super.key,
     this.text,
     this.color = AppColors.main_Color,
     this.textColor = AppColors.white_Color,
+    required this.navigateTo,
   });
 
   @override
@@ -20,7 +22,8 @@ class ButtonPush extends StatelessWidget {
   ) {
     return GestureDetector(
       onTap: () {
-        
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => navigateTo));
       },
       child: Container(
         width: double.infinity,

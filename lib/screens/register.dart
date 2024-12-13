@@ -1,22 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:online_course/utils/app_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_course/widgets/content_sigin.dart';
+import 'package:online_course/utils/app_colors.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<RegisterScreen> createState() => _RegisterScreenState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.white_Color,
-      appBar: AppBar(
-        centerTitle: true,
+      appBar:  AppBar(
+        
         backgroundColor: AppColors.white_Color,
         leadingWidth: 84.w,
         leading: Container(
@@ -34,7 +32,6 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
       ),
-      body: ContentSigin(),
     );
   }
 }

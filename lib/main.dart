@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:online_course/screens/home_screen.dart';
+import 'package:online_course/screens/onboard_1.dart.dart';
 
 void main() => runApp(const MyApp());
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: HomePage(),
+      child: OnboardFirst(),
     );
   }
 }
