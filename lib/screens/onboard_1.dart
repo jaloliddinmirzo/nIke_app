@@ -16,8 +16,8 @@ class OnboardFirst extends StatelessWidget {
       body: Stack(
         children: [
           Positioned(
-            top: 100.h,
-            left: 118.w,
+            top: 60.h,
+            left: 68.w,
             child: Image.asset(AppImages.image3),
           ),
           Positioned(

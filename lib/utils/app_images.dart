@@ -10,4 +10,14 @@ class AppImages {
   static const image6 = "$baseImagePath/vectorC.png";
   static const image7 = "$baseImagePath/Group.png";
   static const image8 = "$baseImagePath/highlight_10.png";
+  static const airjordanimg = "$baseImagePath/AirJordan.png";
+  static const nikelogoimg = "$baseImagePath/nikelogo.png";
+  static const scrollogoimg = "$baseImagePath/scrolllogo.png";
+  static const skechers1img = "$baseImagePath/skechers1.png";
+  static const smileimg = "$baseImagePath/smile.png";
+  static const cloudeimg = "$baseImagePath/cloude.png";
+  static const welcometextimage = "$baseImagePath/welcometextelement.png";
+  static const welcometextbottom = "$baseImagePath/welcometextbottom.png";
+  static const onbooard1background = "$baseImagePath/onboard1background.png";
+  static const onboard1skechers = "$baseImagePath/onboard1nike.png";
 }

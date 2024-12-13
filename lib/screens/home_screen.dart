@@ -21,8 +21,8 @@ class _HomePageState extends State<HomePage> {
         leadingWidth: 84.w,
         leading: Container(
           margin: EdgeInsets.all(5.sp),
-          width: 40,
-          height: 40,
+          width: 40.w,
+          height: 40.h,
           decoration: BoxDecoration(
             color: Color(0xffF7F7F9),
             shape: BoxShape.circle,
@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
           child: Icon(
             Icons.arrow_back_ios_new,
             color: Colors.black,
-            size: 20,
+            size: 20.sp,
           ),
         ),
       ),
