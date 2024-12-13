@@ -1,5 +1,7 @@
 class AppImages {
   static const baseImagePath = "assets/images";
+  static const image_6 = "$baseImagePath/image1.png";
+
   static const image1 = "$baseImagePath/Vector.png";
   static const image2 = "$baseImagePath/image_sneakers.png";
   static const image3 = "$baseImagePath/highlight_05.png";

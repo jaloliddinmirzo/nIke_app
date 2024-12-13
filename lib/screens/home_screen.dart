@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'package:nike_app/utils/app_colors.dart';
-import 'package:nike_app/widgets/buttons.dart';
+import '../utils/app_colors.dart';
+import '../widgets/buttons.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
