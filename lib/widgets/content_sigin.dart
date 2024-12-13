@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:online_course/utils/app_colors.dart';
+import 'package:online_course/widgets/button_google.dart';
 import 'package:online_course/widgets/button_push.dart';
 import 'package:online_course/widgets/inputs/custom_text_field.dart';
 import 'package:online_course/widgets/inputs/password_input.dart';
@@ -18,7 +19,9 @@ class _ContentSiginState extends State<ContentSigin> {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      padding: EdgeInsets.symmetric(horizontal: 16.w),
+      padding: EdgeInsets.symmetric(
+        horizontal: 16.w,
+      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -62,8 +65,16 @@ class _ContentSiginState extends State<ContentSigin> {
           ),
           ButtonPush(
             text: "Sign In",
-            // color: AppColors.white_Color,
           ),
+          SizedBox(
+            height: 24.h,
+          ),
+          ButtonGoogle(
+            text: "Sign In with Google ",
+            color: AppColors.grey_back_Color,
+            textColor: AppColors.main_text_Color,
+          ),
+          // Text.rich(text)
         ],
       ),
     );
