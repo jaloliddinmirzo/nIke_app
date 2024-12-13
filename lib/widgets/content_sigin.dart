@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_course/utils/app_colors.dart';
-import 'package:online_course/widgets/button_push.dart';
-import 'package:online_course/widgets/inputs/custom_text_field.dart';
-import 'package:online_course/widgets/inputs/password_input.dart';
-import 'package:online_course/widgets/texts.dart';
+import '../utils/app_colors.dart';
+import '../widgets/button_push.dart';
+import '../widgets/inputs/custom_text_field.dart';
+import '../widgets/inputs/password_input.dart';
+import '../widgets/texts.dart';
 
 class ContentSigin extends StatefulWidget {
   const ContentSigin({super.key});
