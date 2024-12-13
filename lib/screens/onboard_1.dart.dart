@@ -2,11 +2,10 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'package:online_course/screens/register.dart';
-import 'package:online_course/utils/app_colors.dart';
-import 'package:online_course/utils/app_images.dart';
-import 'package:online_course/widgets/button_push.dart';
+import 'package:nike_app/screens/register.dart';
+import 'package:nike_app/utils/app_colors.dart';
+import 'package:nike_app/utils/app_images.dart';
+import 'package:nike_app/widgets/button_push.dart';
 
 class OnboardFirst extends StatelessWidget {
   const OnboardFirst({super.key});
@@ -14,7 +13,7 @@ class OnboardFirst extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.bottom_Color,
+      backgroundColor: AppColors.button_Color,
       body: Stack(
         children: [
           Positioned(
