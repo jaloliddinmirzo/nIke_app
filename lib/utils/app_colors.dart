@@ -9,4 +9,6 @@ class AppColors {
   static const input_text_Color = Color(0xff707B81);
   static const red_Color = Color(0xff707B81);
   static const background_color = Color(0xffF7F7F9);
+
+  static var grey_back_Color;
 }
