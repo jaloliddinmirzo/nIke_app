@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "online_course" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "online_course" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "online_course.exe" "\0"
             VALUE "ProductName", "online_course" "\0"
+=======
+            VALUE "FileDescription", "nike_app" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "nike_app" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "nike_app.exe" "\0"
+            VALUE "ProductName", "nike_app" "\0"
+>>>>>>> birnima
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

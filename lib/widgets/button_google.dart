@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 // import 'package:online_course/utils/app_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:online_course/utils/app_colors.dart';
-import 'package:online_course/utils/app_images.dart';
+import '../utils/app_colors.dart';
+import '../utils/app_images.dart';
 
 class ButtonGoogle extends StatelessWidget {
   final text;
@@ -32,7 +32,7 @@ class ButtonGoogle extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(AppImages.google),
+            Image.asset(AppImages.image1),
             SizedBox(
               width: 15.sp,
             ),

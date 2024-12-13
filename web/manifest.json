@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "online_course",
     "short_name": "online_course",
+=======
+    "name": "nike_app",
+    "short_name": "nike_app",
+>>>>>>> birnima
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
