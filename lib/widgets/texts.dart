@@ -14,7 +14,7 @@ class H1_text extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      textAlign: TextAlign.center,
+      // textAlign: TextAlign.center,
       text,
       style: TextStyle(
           color: AppColors.main_text_Color,

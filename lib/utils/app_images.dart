@@ -1,6 +1,7 @@
 class AppImages {
   static const baseImagePath = "assets/images";
   static const image_6 = "$baseImagePath/image1.png";
+  static const bag = "$baseImagePath/bag.png";
   static const google = "$baseImagePath/gogle.png";
   static const image1 = "$baseImagePath/Vector.png";
   static const image2 = "$baseImagePath/image_sneakers.png";
@@ -18,7 +19,8 @@ class AppImages {
   static const smileimg = "$baseImagePath/smile.png";
   static const cloudeimg = "$baseImagePath/cloude.png";
   static const welcometextimage = "$baseImagePath/welcometextelement.png";
-  static const welcometextbottom = "$baseImagePath/welcometextbottom.png";
-  static const onbooard1background = "$baseImagePath/onboard1background.png";
   static const onboard1skechers = "$baseImagePath/onboard1nike.png";
+  static const yellow_shoes = "$baseImagePath/yellow_shoes.png";
+  static const button_img = "$baseImagePath/button_img.png";
+  static const sleder = "$baseImagePath/sleder.png";
 }

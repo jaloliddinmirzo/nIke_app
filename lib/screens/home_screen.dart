@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nike_app/utils/app_colors.dart';
 import 'package:nike_app/widgets/content_sigin.dart';
+import 'package:nike_app/widgets/custom_leading.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -16,24 +17,11 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: AppColors.white_Color,
       appBar: AppBar(
-        centerTitle: true,
-        backgroundColor: AppColors.white_Color,
-        leadingWidth: 84.w,
-        leading: Container(
-          margin: EdgeInsets.all(5.sp),
-          width: 40.w,
-          height: 40.h,
-          decoration: BoxDecoration(
-            color: Color(0xffF7F7F9),
-            shape: BoxShape.circle,
-          ),
-          child: Icon(
-            Icons.arrow_back_ios_new,
-            color: Colors.black,
-            size: 20.sp,
-          ),
-        ),
-      ),
+          centerTitle: true,
+          backgroundColor: AppColors.white_Color,
+          leadingWidth: 84.w,
+          leading:
+              CustomLeading(icon: Icons.arrow_back_ios_new, onPressed: () {})),
       body: ContentSigin(),
     );
   }
